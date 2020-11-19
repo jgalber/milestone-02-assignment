@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  /*border: 1.5px dotted orange;*/
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+p {
+  /*font-family: 'Bitter', serif;*/
+  /*font-family: 'Chakra Petch', sans-serif; */
+  font-family: 'Libre Baskerville', serif;
+  line-height: 2rem;
+}
+
+
+/* ---------------------------- HEADER ---------------------------------- */
+
+.navigation {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  width: auto;
+  padding: 0;
+}
+
+.head-nav {
+  margin-left: 200px;
+}
+
+h1.head-nav {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 6rem;
+  letter-spacing: 12px;
+}
+
+
+/* ---------------------------- NAVIGATION ------------------------------- */
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 200px;
+}
+
+a.social-media:last-child {
+  margin-right: 200px;
+}
+
+a.social-nav {
+  font-size: 2rem;
+}
+
+a.linkedin.social-nav {
+  margin: 0;
+}
+
+
+/* ------------------------ FLEXBOX - MAIN CONTAINER --------------------- */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+
+/* ----------------------- CONTAINER ITEMS ------------------------------- */
+
+
+/* -------------------------- ITEM 1 ------------------------------------- */
+
+
+/*
+  .item-one {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    font-size: 4rem;
+    width: 10%;
+    order: 1;
+  }
+*/
+
+
+/* -------------------------- ITEM 2 ------------------------------------- */
+
+div.item-two {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  order: 1;
+}
+
+h6 {
+  display: none;
+}
+
+.info {
+  display: inline-flex;
+  /* flex-wrap: wrap; */
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 12px;
+}
+
+.about-me {
+  padding: 34px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* border-radius: 40px 15px; */
+  text-align: justify;
+  order: 2;
+}
+
+#tool-icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 5.2rem;
+  /* margin-top: 20px; */
+  margin-left: auto;
+  margin-right: auto;
+  order: 1;
+}
+
+.more-info {
+  display: inline-flex;
+  width: 100%;
+}
+
+.projects {
+  padding: 34px;
+  margin-left: 92px;
+  margin-right: 20px;
+  /* border-radius: 40px 15px; */
+  text-align: justify;
+  order: 1;
+  width: 50%;
+}
+
+.projects ul {
+  list-style-type: none;
+}
+
+.projects a {
+  font-family: 'Chakra Petch', sans-serif;
+  text-align: left;
+  text-decoration: none;
+  color: #000;
+}
+
+#dev-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2.6rem;
+  width: 50%;
+  order: 2;
+}
+
+
+/* --------------------------- ITEM 3 ------------------------------------ */
+
+.item-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  order: 2;
+}
+
+.media {
+  display: inline-flex;
+  /* flex-wrap: wrap; */
+  width: 100%;
+}
+
+.broadcast {
+  padding: 34px;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* border-radius: 40px 15px; */
+  text-align: justify;
+  order: 2;
+}
+
+#video {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 3.2rem;
+  order: 1;
+  color: #000;
+}
+
+
+/* --------------------------- FOOTER ------------------------------------ */
+
+footer {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height: 100%;
+  margin: 20px;
+  /* padding: 10px; */
+}
+
+input {
+  border-radius: 5px;
+  border: none;
+  /* border: 1px solid hsl(354, 90%, 64%); */
+  /* border: 1px solid black; */
+  width: 25%;
+  height: 2rem;
+}
+
+label {
+  margin: 5px 0;
+}
+
+textarea {
+  border-radius: 5px;
+  /* border: 1px solid hsl(354, 90%, 64%); */
+  /* border: 1px solid black; */
+  margin-bottom: 6px;
+  width: 35%;
+}
+
+button {
+  border-radius: 10px;
+  /* border: 1px solid hsl(354, 90%, 64%); */
+  border: 2px solid #ff0000;
+  width: 35%;
+  height: 2rem;
+  float: right;
+}
+
+.nav-footer {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.footer-icon {
+  color: #000;
+  margin-right: 30px;
+}
+
+.footer-icon:last-child {
+  margin-right: 0;
+}
+
+h5 {
+  text-align: center;
+}
+
+footer>h5 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
